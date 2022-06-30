@@ -123,7 +123,6 @@ input[type='checkbox'] {
 
 input[type='number'] {
   flex: 1 1 45%;
-  /* width: 80px; */
   height: 40px;
   border: none;
   border-radius: 3px;

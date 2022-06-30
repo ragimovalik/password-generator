@@ -102,8 +102,6 @@ const screensBoxEl = document.querySelectorAll('#screens-box>div');
 const symbolsCheckbox = document.getElementById('symbols');
 const numbersCheckbox = document.getElementById('numbers');
 
-// console.log(symbolsCheckbox.checked);
-
 // Get Random Number
 function generatePasswordString(arr, passwordLenght = 15) {
   let result = '';
