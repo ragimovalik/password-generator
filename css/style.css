@@ -1,0 +1,132 @@
+body {
+  padding: 10px;
+  background: #f9fafb;
+  font-family: 'Karla', serif;
+  font-size: 16px;
+}
+
+.box {
+  max-width: 500px;
+  min-height: 500px;
+  margin-inline: auto;
+  padding-inline: 30px;
+  padding-block: 80px;
+  background: #1f2937;
+  border-radius: 12px;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 2.5rem;
+  line-height: 1;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.title__decor {
+  color: #4adf86;
+}
+
+.text {
+  font-family: 'Inter';
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #d5d4d8;
+  margin-bottom: 30px;
+}
+
+.button {
+  flex: 1 1 50%;
+  height: 42px;
+  margin-bottom: 10px;
+  padding-inline: 10px;
+  background: #10b981;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  transition: all linear 250ms;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  letter-spacing: 5px;
+}
+
+hr {
+  background-color: #2f3e53;
+  height: 3px;
+  border: none;
+  margin-bottom: 30px;
+}
+
+.result__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.result__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-height: 40px;
+  border: 3px solid transparent;
+  border-radius: 3px;
+  background: #273549;
+  color: #55f991;
+
+  font-family: 'Inter';
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.125rem;
+  letter-spacing: 1px;
+  line-height: 2;
+}
+
+.input__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: #d5d4d8;
+}
+
+.checkboxes {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+input[type='checkbox'] {
+  width: 20px;
+  height: 20px;
+}
+
+.checkbox__wrap {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkbox__wrap > label {
+  letter-spacing: 0.075rem;
+  text-align: center;
+}
+
+input[type='number'] {
+  flex: 1 1 45%;
+  /* width: 80px; */
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 1.25rem;
+}
